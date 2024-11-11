@@ -1,0 +1,7 @@
+{
+    "IpAdress": "127.0.0.1",
+    "MainPort": 8070,
+    "WebPort": 8078,
+    "ServerType": "Master",
+	"UseLocalIpAdress": true
+}

@@ -1,0 +1,25 @@
+{
+	"startDate": "2022-09-06T00:00:00",
+	"sequences":[
+		{
+			"name": "testdata_30FPS_FILTERED_DESKTOP_720.4ds",
+			"duration": 9.0
+		},
+		{
+			"name": "testdata_30FPS_FILTERED_DESKTOP_720.4ds",
+			"duration": 9.0
+		},
+		{
+			"name": "testdata_30FPS_FILTERED_DESKTOP_720.4ds",
+			"duration": 9.0
+		},
+		{
+			"name": "testdata_30FPS_FILTERED_DESKTOP_720.4ds",
+			"duration": 9.0
+		}
+		
+		
+		
+	]
+	
+}

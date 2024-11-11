@@ -1,0 +1,983 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7868229910179051238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7868229910179051256}
+  - component: {fileID: 7868229910179051257}
+  m_Layer: 0
+  m_Name: Skin Manager (place to scene)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7868229910179051256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7868229910179051238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7868229910179051257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7868229910179051238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ec90f1b93541e4a8a1423246505d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: /Avatar/Skins/
+  rawSkins:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  skinType: 4
+  hairSkins:
+  - name: boy_hair_1
+    type: 2
+    lodModels:
+    - {fileID: 2399776901169125448, guid: b7f74cdf9e043a041a1e0c7d9e7b7f39, type: 3}
+    - {fileID: 4817646800786868210, guid: a8df828f549387844a55be71fd77a1ff, type: 3}
+    - {fileID: 8343440704857765018, guid: 849bb89dd1100df499cc408f0ba40f6b, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_2
+    type: 2
+    lodModels:
+    - {fileID: 4966433996337682727, guid: 4fe518a20e56b5740a1891f06c5552f5, type: 3}
+    - {fileID: 3662628808902041937, guid: 539cec49c1c42a849bd1cf7aac535b2b, type: 3}
+    - {fileID: 368003007538205061, guid: 3de5c13568ea2a34f89ffb01ba5f94a5, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_3
+    type: 2
+    lodModels:
+    - {fileID: 6576367264016389517, guid: 40779027fc2ab774fb79a81a2397a845, type: 3}
+    - {fileID: 7723573418076477383, guid: c2fbbc205a145af439dcfec1bdb2a993, type: 3}
+    - {fileID: 3179260698573366212, guid: 38c5cd9dae066ca4c8b0fa9e7b89e9e8, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_4
+    type: 2
+    lodModels:
+    - {fileID: 4913629154281825186, guid: 51fa6fe032a24b74ea54afb822aa39b3, type: 3}
+    - {fileID: 6351971512908224400, guid: def1f4e919ddfc4499ee3070fce2bb56, type: 3}
+    - {fileID: 8471462644849530888, guid: 01c3d0a659e1ac14e9b3e82b09a0ed7d, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_5
+    type: 2
+    lodModels:
+    - {fileID: 7511182362466408938, guid: 3b687af3dca49a54a890bce6d4c60887, type: 3}
+    - {fileID: 1546717006965407670, guid: a350edf43065f9a4196c788e9740ed63, type: 3}
+    - {fileID: 3884619779781453065, guid: 37241f42cd820044bb209fcc971dead3, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_6
+    type: 2
+    lodModels:
+    - {fileID: 5473949955160567811, guid: b8b280a46e7e35546ab164c5e2b0c506, type: 3}
+    - {fileID: 6666336050067561217, guid: 83db7ccc8498a7447b9e77007a40a41c, type: 3}
+    - {fileID: 5508587877490785649, guid: a151c8638232b96469e3b464d22b7dfc, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_7
+    type: 2
+    lodModels:
+    - {fileID: 1093488720942759278, guid: c4d1d829f1026ae4598eaa66a4610955, type: 3}
+    - {fileID: 8969711588206411854, guid: 9a712db3129a58c4a853b414e630fc6b, type: 3}
+    - {fileID: 4268503615465599214, guid: e0fc57d2b78ea4a4eac8c6b62b8cf0e1, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_8
+    type: 2
+    lodModels:
+    - {fileID: 3745548691475130152, guid: 3bcdf5295a43c3248adb413be2e3b4a5, type: 3}
+    - {fileID: 8904953740261985916, guid: 7e2414902bceb31459e289e7f54b0391, type: 3}
+    - {fileID: 3533016180406359990, guid: 2bd1ac168f6a3a048a31e59f59a9c9f9, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_9
+    type: 2
+    lodModels:
+    - {fileID: 2052773960466080864, guid: a56690f02fe2f2f47b4c5eded936bbcd, type: 3}
+    - {fileID: 1142979399845458792, guid: 464193170e562d44c993765ad7b2ae5b, type: 3}
+    - {fileID: 6646551358888120627, guid: 5ad67929c80e59943afa3ce4684dbfb2, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: boy_hair_10
+    type: 2
+    lodModels:
+    - {fileID: 368758108072861806, guid: 12d3f6b9dbc479e48b8299341dadfeed, type: 3}
+    - {fileID: 4291547659840536597, guid: fd8566e1d192dbc42856be77efe455dc, type: 3}
+    - {fileID: 1141951703650767060, guid: a9530bc764d147b46be02240ec965f99, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  hatSkins:
+  - name: male_boy_youth_hat_1
+    type: 3
+    lodModels:
+    - {fileID: 7272940013262515536, guid: 93f1246a92e42c544b4aa50276ead8b1, type: 3}
+    - {fileID: 1172924496274089589, guid: fb2c63c731e41354bbef38e43e900fcc, type: 3}
+    - {fileID: 2663636920812300772, guid: 6f909cb3330bd6142946d4a98b0970e9, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: male_boy_youth_hat_2
+    type: 3
+    lodModels:
+    - {fileID: 8377771223323372280, guid: 1025e7ef3eb16814183a740b9bf04f85, type: 3}
+    - {fileID: 7016010220913875830, guid: d5aa858b703d24c44a78f65a85ff93a7, type: 3}
+    - {fileID: 2987908083590780485, guid: c8fe17276a39fb5438bcc922a0728c02, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: male_boy_youth_hat_3
+    type: 3
+    lodModels:
+    - {fileID: 5984571025118220236, guid: 16dd5ce14174c6649a2241e572b278d8, type: 3}
+    - {fileID: 5859095582162865199, guid: d6ccb156ee63c304d9437fc182a01767, type: 3}
+    - {fileID: 7902838886669430368, guid: c273ff675e4ad2844a42cff631e9b8df, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: male_boy_youth_hat_4
+    type: 3
+    lodModels:
+    - {fileID: 4129666511594620606, guid: e0efc846ec74b6e4f8b72530aa3b3201, type: 3}
+    - {fileID: 989900100818594521, guid: b8cfff0faa07e0d4ca0ae90790b3cd50, type: 3}
+    - {fileID: 7115266130810330747, guid: 6771c21e34551ab4b9b702a30307f819, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: male_boy_youth_hat_5
+    type: 3
+    lodModels:
+    - {fileID: 8606380460800084824, guid: 6e18d3c1a2a976045b2bc650388ad69a, type: 3}
+    - {fileID: 6753970571971231413, guid: 2ba5b55cb1b83014d9e22ccbced024ed, type: 3}
+    - {fileID: 999855539409833910, guid: 0055111990265c2408160296730100e2, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: male_boy_youth_hat_6
+    type: 3
+    lodModels:
+    - {fileID: 8824990091127622637, guid: 5175369dd0f30e343a24c600c6587b94, type: 3}
+    - {fileID: 7205506431793563056, guid: 15dfc9e2856b5064daeba6e615743350, type: 3}
+    - {fileID: 2676204708132932453, guid: edd6c5c7407a59248a9abdffeff7d37c, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: male_boy_youth_hat_7
+    type: 3
+    lodModels:
+    - {fileID: 5217932848542726286, guid: 641fbb5c867cc85429648e7c9463cdaf, type: 3}
+    - {fileID: 2952937965189635635, guid: c30578ae90c14ae499d1e6fbd7485ae3, type: 3}
+    - {fileID: 5490248817189214502, guid: 9babf90a6c4dbf34eaa86596e8f6ed47, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: male_boy_youth_hat_8
+    type: 3
+    lodModels:
+    - {fileID: 6694406535195925323, guid: dbe1351929d47b045a1f63c773799c53, type: 3}
+    - {fileID: 3126020084953250232, guid: f5c55889881814c4a838b7d184e8cb50, type: 3}
+    - {fileID: 2190593176271960862, guid: 0b301dd23256fb54286becb9a3e04ea2, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  tshirtSkins:
+  - name: T_shirt
+    type: 6
+    lodModels:
+    - {fileID: 6326071277561576925, guid: feab1433f3cf4eb4cad81f4d8d97cf9a, type: 3}
+    - {fileID: 2609236836097168932, guid: 865f05d300cd0c148872bed8149e311b, type: 3}
+    - {fileID: 3969169546744531439, guid: bb64f549955fed14d8476313963f27e3, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: T_shirt_1
+    type: 6
+    lodModels:
+    - {fileID: 8824907963996595216, guid: 27986aaf1a4995a4491527f133020e70, type: 3}
+    - {fileID: 644248291671060597, guid: 19eaeabbd0257864b85491166e855c16, type: 3}
+    - {fileID: 3960359636993636822, guid: 7dfae068c193ab34498b9bc026b4eb23, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: T_shirt_3
+    type: 6
+    lodModels:
+    - {fileID: 7557541650850346303, guid: 31bb2240d09da554e8609ca8e8a70b2f, type: 3}
+    - {fileID: 4532217230819354932, guid: df7afe67d891ca9418e63d57e25d4278, type: 3}
+    - {fileID: 4536486419716172819, guid: c6422e8033461cd4189ee074f9808368, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  pantsSkins:
+  - name: Pants
+    type: 4
+    lodModels:
+    - {fileID: 8228481482034355907, guid: 4350f9e42c0cca442b6bd1b0dd7d57ca, type: 3}
+    - {fileID: 7905472932094392850, guid: 7b6e609e5bade5047a16e779d94132ef, type: 3}
+    - {fileID: 6191762425775649473, guid: 2b4ce5fc085999a488bc53d9f488438a, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: Pants_3
+    type: 4
+    lodModels:
+    - {fileID: 8975457480015962213, guid: b46a61eadf3264b409c40609c065d7e4, type: 3}
+    - {fileID: 2824049679316006492, guid: dd057e2f64137bb469e2d0113c78adae, type: 3}
+    - {fileID: 749284322437549912, guid: 3cf31d9e13e7e6745990cdfec899bac6, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  - name: Pants_1
+    type: 4
+    lodModels:
+    - {fileID: 4453750265178505703, guid: 564beff7df79c864789bc72d8a588fcd, type: 3}
+    - {fileID: 6324993418114912178, guid: 3ce7424f7de6e924dbeb2ae33e6fb0d6, type: 3}
+    - {fileID: 8820403507866128506, guid: dc430a30b7605dc41b1f311cd631383c, type: 3}
+    rootBoneName: hips.001
+    boneNames:
+    - hips.001
+    - hips
+    - thigh.L
+    - shin.L
+    - foot.L
+    - toe.L
+    - thigh.R
+    - shin.R
+    - foot.R
+    - toe.R
+    - spine
+    - chest
+    - neck
+    - head
+    - shoulder.L
+    - upper_arm.L
+    - forearm.L
+    - hand.L
+    - thumb.01.L
+    - f_middle.01.L
+    - shoulder.R
+    - upper_arm.R
+    - forearm.R
+    - hand.R
+    - thumb.01.R
+    - f_middle.01.R
+  avatar1: {fileID: 0}
+  avatar2: {fileID: 0}
+  rawHairSkins:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  rawHatSkins:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  rawPantsSkins:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  rawTShirtSkins:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
